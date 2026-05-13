@@ -131,16 +131,19 @@
       align-items: center;
     }
 
-    .hero-card {
+    $1
+
+    .hero-avatar {
+      width: 118px;
+      height: 118px;
+      display: block;
+      object-fit: cover;
+      border-radius: 999px;
+      border: 5px solid rgba(255,255,255,0.92);
+      box-shadow: 0 20px 42px rgba(76,29,149,0.24), 0 0 0 9px rgba(216,180,254,0.28);
+      margin-bottom: 22px;
       position: relative;
-      padding: 52px;
-      border-radius: var(--radius-xl);
-      background:
-        linear-gradient(135deg, rgba(255,255,255,0.95), rgba(255,255,255,0.68)),
-        linear-gradient(135deg, rgba(47,133,137,0.12), rgba(255,219,88,0.14));
-      border: 1px solid rgba(47,133,137,0.15);
-      box-shadow: var(--shadow);
-      overflow: hidden;
+      z-index: 1;
     }
 
     .hero-card::after {
@@ -553,7 +556,8 @@
 
     <section class="hero" id="top">
       <div class="hero-card">
-        <span class="eyebrow">Portfolio Website</span>
+        <img class="hero-avatar" src="https://github.com/CallieLM/graph-ai-portfolio/blob/main/29C9A9C6-505E-4BCD-B070-8629B6516D9C.JPG?raw=true" alt="Portrait of Callie Menut" />
+        $1
         <h1><span class="gradient-text">Generative AI</span><br />for Work & Research</h1>
         <p>
           A polished portfolio for documenting my journey through an 8-week live cohort course focused on responsible, no-code AI tools for task automation, research productivity, communication, and applied project work.
@@ -791,3 +795,4 @@
   </div>
 </body>
 </html>
+ 
