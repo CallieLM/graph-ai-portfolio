@@ -172,6 +172,18 @@
       z-index: -1;
     }
 
+    .avatar {
+      width: 128px;
+      height: 128px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin-bottom: 24px;
+      border: 5px solid rgba(255, 255, 255, 0.88);
+      box-shadow: 0 22px 54px rgba(75, 22, 134, 0.26), 0 0 0 1px rgba(127, 53, 255, 0.16);
+      background: var(--lilac);
+    }
+
     .eyebrow {
       display: inline-flex;
       align-items: center;
@@ -872,6 +884,7 @@
   <main id="top">
     <section class="hero page-shell" aria-labelledby="hero-title">
       <div>
+        <img class="avatar" src="https://github.com/CallieLM/graph-ai-portfolio/blob/main/unnamed-2.jpg?raw=true" alt="Portrait of Callie Louisa Menut" />
         <span class="eyebrow">Responsible AI · Workflows · Research</span>
         <h1 id="hero-title"><span class="gradient-text">Generative AI</span><br />for work with purpose.</h1>
         <p class="hero-copy">
